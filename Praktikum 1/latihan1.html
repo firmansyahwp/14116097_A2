@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Latihan 1.10</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image:url('header.png');
+  padding: 10px;
+  text-align: center;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+  <h1>Pemrograman Web</h1>
+  <h3>Belajar membuat layout website sederhana</h3>
+</header>
+
+<div class="topnav">
+  <a href="#home">HTML</a>
+  <a href="#news">CSS</a>
+  <a href="#contact">PHP</a>
+</div>
+
+<section>
+  <nav>
+    <ul>
+      <li>
+      <img src="html5.png" width="100px" height="100px" alt="Image">
+      </li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>HTML 5</h1>
+    <p>HTML atau Hyper-Text Markup Language bisa dibilang merupakan bahasa utama dunia website. Umumnya halaman web yang beradad di internet ditulis dengan variasi HTML. Lewat HTML, developer bisa memastikan multimedia, text dan link bisa tampil di browser menyatu dengan elemen lainnya. Dari elemen yang membuat hubungan ke dokumen Anda (hypertext) hingga ke elemen yang membuat dokumen menjadi interaktif, semuanya merupakan kesatuan dari HTML.
+
+Standard dalam HTML diciptakan oleh W3C atau World Wide Web Consortium pada tahun 1997. Dalam HTML, tag digunakan untuk menentukan struktur; tag dan elemen didefenisikan dengan menggunakan karakter < dan >. Beberapa contoh tag yang telah disebutkan sebelumnya adalah heading, table, paragraf, dll. Browsers bertanggung jawab untuk me-render halaman website melalui tag ini. Sudah sejak lama, HTML menjadi bukan satu-satunya standard development. Belakangan ini, semua content dan tag untuk style dihadirkan dalam bahasa yang besar dan cukup kompleks. Akhirnya, W3C memutuskan bahwa pemisahan antara content dan style pada website, sangat dibutuhkan; yang kemudian mengantarkan kepada terciptanya style sheets. Seaat ini, tag yang digunakan untuk mendefenisikan style dari dokumen (misalnya Font) sudah mulai ditinggalkan karena orang lebih memilih menggunakan style sheets dan hanya tag yang terkait dengan penentuan content saja yang masih digunakan sebagai inti HTML.</p>
+  </article>
+</section>
+
+<footer>
+  <marquee> Created by Yusuf Firmansyah W P - 14116097 - Teknik Informatika - Institut Teknologi Sumatera </marquee>
+</footer>
+
+</body>
+</html>

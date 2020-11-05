@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Tugas</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-image:url('batik.jpg');
+  background-position: center;
+  background-size: 784px 200px;
+  padding: 10px;
+  text-align: center;
+  width: 784px;
+  height: 200px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  width: 784px;
+  height: 100px;
+}
+
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 200px;
+  background: #ccc;
+  padding: 20px;
+  height: auto;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 584px;
+  background-color: #f1f1f1;
+  height: auto;
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+</header>
+
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Batik Megamendung</a></li>
+      <li><a href="#">Batik Parang</a></li>
+      <li><a href="#">Priyangan Tasikmalaya</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Batik Megamendung</h1>
+    <p>Batik Megamendung merupakan motif batik khas daerah Cirebon. Motif batik ini dapat dipakai semua kalangan.</p>
+    <p>Bentuk motif batik ini mudah dikenali dengan bentuk-bentuk awan. Penggunaan warna dalam motif batik ini juga cerah dan mencolok.
+       Warna-warna mencolok tersebut diantaranya merah tua, biru, hijau tua, dan ungu. Pilihan warna cerah ini yang membuat batik Megamendung mudah dikenali di mancanegara.</p>
+  </article>
+</section>
+
+<footer>
+   Created by Yusuf Firmansyah W P - 14116097 - Teknik Informatika - Institut Teknologi Sumatera 
+</footer>
+
+</body>
+</html>
