@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div>
+		<h2>MYSQLI</h2>
+		<label>============================================</label>
+		<h3>Tambah Data</h3>
+		<form action="tambah.php" method="POST">
+			<div>
+				<label>NIM :</label>
+				<input type="text" name="nrp">
+			</div>
+			<div>
+				<label>Nama:</label>
+				<input type="text" name="nama">
+			</div>
+			<div>
+				<label>Jurusan:</label>
+              <select name="jurusan">
+                  <option value="IF">Teknik Informatika</option>
+                  <option value="EL">Teknik Elektro</option>
+                  <option value="FA">Farmasi</option>
+				  <option value="BI">Biologi</option>
+				  <option value="GL">Geologi</option>
+              </select>
+			</div>
+			<br><button type="submit" name="tambah" value="Upload">Tambah</button></br>
+		</form>
+	</div>
+
+	<div>
+		<h3>SEARCH DATA</h3>
+		<form action="cari.php" method="POST">
+			<div>
+				<label>============================================</label>
+			</div>
+			<div>
+				<label>Nama:</label>
+           		<input type="text" type="text" name="keyword">
+            	<input type="submit" name="cari" value="Cari Data">
+			</div>
+		</form>
+		<h3>DELETE DATA</h3>
+		<form action="hapus.php" method="POST">
+			<div>
+				<label>============================================</label>
+			</div>
+			<div>
+				<label>NIM :</label>
+				<input type="text" name="delete">
+				<input type="submit" name ="hapus" value="Hapus Data">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
