@@ -1,6 +1,3 @@
-# 118140109_A2
-repo praktikum Web ITERA
-
 Cara insert data:
 - isi form input data
 - klik tambah
